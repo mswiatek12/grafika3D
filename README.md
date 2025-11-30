@@ -1,6 +1,4 @@
-# Projekt końcowy - Programowanie Grafiki 3D
-
-**Interaktywna aplikacja 3D z OpenGL w Pythonie**
+# Grafika 3D
 
 ## Opis projektu
 
@@ -9,7 +7,7 @@ Projekt realizuje wszystkie wymagania projektu końcowego z przedmiotu Programow
 ### Zrealizowane funkcjonalności
 
 1. **Inicjalizacja środowiska graficznego** - GLFW + OpenGL
-2. **Scena 3D** - wielość obiektów (kostki, sfery, podłoże, chmury)
+2. **Scena 3D** - podłoże i chmury 3D
 3. **Interakcja użytkownika**:
    - Sterowanie kamerą (WASD, LPM + mysz, spacja, shift)
    - Kontrola wysokości chmur (strzałki góra/dół)
@@ -119,10 +117,8 @@ python main.py
 ### Obiekty w scenie:
 
 1. **Podłoże** - duża płaszczyzna z teksturą trawy (50x50 jednostek)
-2. **Kostki (5 sztuk)** - rozmieszczone w różnych lokalizacjach, z czerwoną teksturą
-3. **Sfery (4 sztuki)** - niebieskie kule rozmieszczone wokół sceny
-4. **Chmury (7 sztuk)** - białe, trójwymiarowe obiekty złożone z wielu sfer, można podnosić/obniżać
-5. **Źródło światła** - wizualizowane jako żółta sfera
+2. **Chmury (7 sztuk)** - białe, trójwymiarowe obiekty złożone z wielu sfer, można podnosić/obniżać
+3. **Źródło światła** - wizualizowane jako żółta sfera
 
 ### Parametry oświetlenia:
 
@@ -137,8 +133,6 @@ Wszystkie tekstury są generowane proceduralnie w kodzie:
 
 - **Trawa** - zielona tekstura z szumem dla realizmu
 - **Chmury** - białe z gradientem alpha dla miękkości
-- **Kostki** - czerwona tekstura (cegła)
-- **Sfery** - niebieska tekstura
 
 ## 🔧 Szczegóły techniczne
 

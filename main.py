@@ -410,15 +410,6 @@ def draw_simple_text(x, y, text, scale=1.0):
 def draw_scene():
     global cloud_height
     draw_ground()
-    draw_cube(-5, 1, -5, 1.0)
-    draw_cube(5, 1, -5, 1.0)
-    draw_cube(-5, 1, 5, 1.0)
-    draw_cube(5, 1, 5, 1.0)
-    draw_cube(0, 1, 0, 1.5)
-    draw_sphere(-8, 2, 0, 1.5)
-    draw_sphere(8, 2, 0, 1.5)
-    draw_sphere(0, 2, -8, 1.5)
-    draw_sphere(0, 2, 8, 1.5)
     draw_cloud(-10, cloud_height, -10, 1.8)
     draw_cloud(10, cloud_height + 2, -8, 1.5)
     draw_cloud(-8, cloud_height - 2, 10, 2.0)
