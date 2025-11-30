@@ -1,4 +1,4 @@
-# 🎮 Projekt końcowy - Programowanie Grafiki 3D
+# Projekt końcowy - Programowanie Grafiki 3D
 
 **Interaktywna aplikacja 3D z OpenGL w Pythonie**
 
@@ -235,7 +235,7 @@ sudo dnf install freeglut-devel
 
 ---
 
-## 🎓 Dokumentacja dodatkowa
+## Dokumentacja dodatkowa
 
 ### Struktura kodu:
 
